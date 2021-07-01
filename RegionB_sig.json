@@ -1,0 +1,42 @@
+[
+    {
+        "op": "remove",
+        "path": "/channels/0/samples/0",
+        "value": {
+            "name": "MA5_signal_0",
+            "data": [],
+            "modifiers": []
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/channels/1/samples/0",
+        "value": {
+            "name": "MA5_signal_1",
+            "data": [],
+            "modifiers": []
+        }
+    },
+    {
+        "op": "add",
+        "path": "/channels/2/samples/0",
+        "value": {
+            "name": "MA5_signal_2",
+            "data": [
+                55.6
+            ],
+            "modifiers": [
+                {
+                    "data": null,
+                    "name": "lumi",
+                    "type": "lumi"
+                },
+                {
+                    "data": null,
+                    "name": "mu_SIG",
+                    "type": "normfactor"
+                }
+            ]
+        }
+    }
+]

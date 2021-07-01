@@ -1,0 +1,72 @@
+[
+    {
+        "op": "remove",
+        "path": "/channels/0/samples/0",
+        "value": {
+            "name": "MA5_signal_0",
+            "data": [],
+            "modifiers": []
+        }
+    },
+    {
+        "op": "add",
+        "path": "/channels/1/samples/0",
+        "value": {
+            "name": "MA5_signal_1",
+            "data": [
+                4170.0,
+                2307.400712,
+                1556.8,
+                1918.200356
+            ],
+            "modifiers": [
+                {
+                    "data": null,
+                    "name": "lumi",
+                    "type": "lumi"
+                },
+                {
+                    "data": null,
+                    "name": "mu_SIG",
+                    "type": "normfactor"
+                }
+            ]
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/channels/2/samples/0",
+        "value": {
+            "name": "MA5_signal_2",
+            "data": [],
+            "modifiers": []
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/channels/3/samples/0",
+        "value": {
+            "name": "MA5_signal_3",
+            "data": [],
+            "modifiers": []
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/channels/4/samples/0",
+        "value": {
+            "name": "MA5_signal_4",
+            "data": [],
+            "modifiers": []
+        }
+    },
+    {
+        "op": "remove",
+        "path": "/channels/5/samples/0",
+        "value": {
+            "name": "MA5_signal_5",
+            "data": [],
+            "modifiers": []
+        }
+    }
+]
